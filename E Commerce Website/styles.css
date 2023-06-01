@@ -1,0 +1,808 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*===============================SCROLL BAR=========================*/
+::-webkit-scrollbar {
+    width: 5px;
+  }
+::-webkit-scrollbar-track {
+    background: #555;
+  }
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.781);
+  }
+
+/*===============================NAVBAR=========================*/
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    width: 100%;
+    position: fixed;
+}
+.navbar{
+    background-color: burlywood;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 4rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar:hover{
+    background-color: white;
+    transition: 0.5s ease-in-out;
+}
+.navbar ul li{
+    display: inline-flex;
+    list-style: none;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.navbar .left-context{
+    font-family: 'Noto Sans Mono', monospace;
+    text-transform: uppercase;
+   cursor: pointer;
+    color: brown;
+    margin-left: 30px;
+    font-weight: 700;
+}
+.left-context ul li{
+    font-size: 22px;
+   
+}
+.mid-context a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.mid-context span{
+    position: relative;
+    top: 5px;
+    margin-left: 5px;
+}
+
+.mid-context ul li:hover span{
+    top: 12px;
+    transition: 0.3s;
+}
+
+.right-context a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+ 
+}
+.right-context a:hover{
+    color: brown;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------BODY CONTEXT----------------------------------------*/
+
+.shopbackground{
+    display: flex;
+}
+.container{
+    display: flex;
+    position: block;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 600px;
+    background-color: burlywood;
+;
+}
+.bodycontext button{
+    display: flex;
+    position: block;
+    left: 20%;
+    border-radius: 50px;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    color: white;
+    padding: 15px 100px 15px 100px;
+    margin-top: 30px;
+     margin-left: 60px;
+    background-color: transparent;
+    border: solid white;
+    cursor: pointer;
+}
+.bodycontext button:hover{
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.94);
+    font-size: 27px;
+    transition: 0.6s;
+}
+   
+.bodycontext .logotextbig{
+   font-size: 80px;
+   font-weight: 600;
+   text-decoration: overline;
+   text-align: center;
+}
+
+.bodycontext .logotextsmall{
+    text-align: center;
+    font-size: 40px;
+   text-align: center;
+}
+.bodycontext .tagline{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+}
+  
+.model2 img{
+    display: flex;
+    height: 600px;
+    width: 500px;
+}
+
+
+/*--------------------------------------------------------------------*/
+.sub-1{
+   /* display: none; */
+    display: flex;
+    position: fixed;
+    width: 0px;
+    top: 50px;
+    left: -900px;
+    padding-top: 20px;
+    background-color: white;
+    justify-content: space-evenly;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    transition: 0.3s ease-out;
+}
+.sub-1 ul li{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.sub-1 div {
+    display: inline-flex;
+    flex-direction: row;
+    width: 200px;
+    height: 400px;
+    margin-top: 15px;
+}
+.sub-1 a{
+    text-transform: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+}
+.sub-1 a:hover{
+    color: brown;
+}
+
+
+.first-row ul li{
+    display: flex;
+}
+.first-row a{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+
+.second-row ul li{
+    display: flex;
+}
+.second-row a{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.thirdrow-image img{
+    display: flex;
+    box-sizing: border-box;
+    border: solid black;
+    position: relative;
+    border-radius: 45px;
+    box-shadow:  26px 26px 26px #bebebe,
+             -26px -26px 26px #ffffff;
+    width: 500px;
+   height: 300px;
+}
+@media (min-width: 878px) and (max-width: 1150px ) {
+   .thirdrow-image img{
+    display: flex;
+    box-sizing: border-box;
+    border: solid black;
+    position: relative;
+    border-radius: 45px;
+    box-shadow:  26px 26px 26px #bebebe,
+             -26px -26px 26px #ffffff;
+    width: 230%;
+   height: 250px;
+}
+  }
+
+
+
+
+
+
+.navbar .collection:hover .sub-1{
+    display: flex;  
+    width: 100%;
+    top: 40px;
+    left: 0px;
+    transition: 0.6s;
+}
+.sub-1:hover .sub-1{
+    display: flex;
+    top: 40px;
+    width: 100%;
+    left: 0px;
+    transition: 1s;
+}
+
+
+
+
+
+
+.sub-2{
+    /* display: none; */
+     display: flex;
+     position: fixed;
+     width: 0px;
+     top: 50px;
+     left: -1700px;
+     padding-top: 20px;
+     background-color: white;
+    align-items: center;
+     justify-content: space-between;
+     font-family: 'Reem Kufi Ink', sans-serif;
+     transition: 0.3s ease-out;
+ }
+ .navbar .sub-2 ul li{
+    justify-content: center;
+     margin-left: 20px;
+     margin-top: 30px;
+ }
+ .sub-2 div {
+     display: inline-flex;
+     flex-direction: row;
+     width: 400px;
+     height: 430px;
+     margin-top: 15px;
+ }
+ .sub-2 a{
+     text-transform: none;
+    
+     font-weight: 500;
+     font-size: 18px;
+     color: black;
+ }
+ .sub-2 a:hover{
+     color: brown;
+ }
+ 
+ 
+ .first-row ul li{
+     display: flex;
+ }
+ .first-row a{
+     text-transform: uppercase;
+     font-weight: bolder;
+ }
+
+ .sub-2 img{
+    display: flex;
+    box-sizing: border-box;
+   border: solid rgba(0, 0, 0, 0.55);
+    position: relative;
+    border-radius: 45px;
+    box-shadow:  26px 26px 26px #bebebe,
+             -26px -26px 26px #ffffff;
+     width: 270px;
+   height: 250px;
+ }
+ @media (min-width: 1413px) and (max-width: 1540px ) {
+    .sub-2 img{
+         width: 240px;
+       height: 250px;
+     }
+   }
+   @media (min-width: 1200px ) and (max-width: 1413px ) {
+    .sub-2 img{
+         width: 200px;
+       height: 250px;
+     }
+   }
+   @media (min-width: 1100px) and (max-width: 1200px ) {
+    .sub-2 img{
+         width: 180px;
+       height: 250px;
+     }
+   } @media (min-width: 950px) and (max-width: 1100px ) {
+    .sub-2 img{
+         width: 150px;
+       height: 250px;
+     }
+   }
+
+ 
+
+
+ 
+ 
+ .second-row ul li{
+     display: flex;
+ }
+ 
+ 
+ 
+ .third-row ul li{
+     display: flex;
+  
+ }
+ 
+ 
+ .fourth-row ul li{
+     display: flex;
+ }
+ 
+ .fifth-row ul li{
+     display: flex;
+ }
+ .sixth-row ul li{
+     display: flex;
+ }
+ 
+ 
+ 
+ .navbar .categories:hover .sub-2{
+     display: flex;  
+     width: 100%;
+     top: 40px;
+     left: 0px;
+     transition: 0.6s;
+ }
+ .sub-2:hover .sub-2{
+     display: flex;
+     top: 40px;
+     width: 100%;
+     left: 0px;
+     transition: 1s;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+ .sub-3{
+  
+     display: flex;
+     position: fixed;
+     width: 0px;
+     top: 50px;
+     left: -900px;
+     padding-top: 20px;
+     background-color: white;
+     justify-content: space-between;
+     font-family: 'Reem Kufi Ink', sans-serif;
+     transition: 0.3s ease-out;
+ }
+ .sub-3 ul li{
+     margin-left: 20px;
+     margin-top: 30px;
+ }
+ .sub-3 div {
+     display: inline-flex;
+     flex-direction: row;
+     width: 200px;
+     height: 420px;
+     margin-top: 15px;
+ }
+ .sub-3 a{
+     text-transform: none;
+     font-weight: 500;
+     font-size: 18px;
+     color: black;
+ }
+ .sub-3 a:hover{
+     color: brown;
+ }
+ 
+ 
+ .first-row ul li{
+     display: flex;
+ }
+ .first-row a{
+     text-transform: uppercase;
+     font-weight: bolder;
+ }
+ 
+ 
+ .second-row ul li{
+     display: flex;
+ }
+ 
+ 
+ 
+ .third-row ul li{
+     display: flex;
+  
+ }
+ 
+ 
+ .fourth-row ul li{
+     display: flex;
+ }
+ 
+ .fifth-row ul li{
+     display: flex;
+ }
+ .sixth-row ul li{
+     display: flex;
+ }
+ 
+ 
+ 
+ .navbar .men:hover .sub-3{
+     display: flex;  
+     width: 100%;
+     top: 40px;
+     left: 0px;
+     transition: 0.6s;
+ }
+ .sub-3:hover .sub-3{
+     display: flex;
+     top: 40px;
+     width: 100%;
+     left: 0px;
+     transition: 1s;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+ .sub-4{
+   
+     display: flex;
+     position: fixed;
+     width: 0px;
+     top: 50px;
+     left: -900px;
+     padding-top: 20px;
+     background-color: white;
+     justify-content: space-between;
+     font-family: 'Reem Kufi Ink', sans-serif;
+     transition: 0.3s ease-out;
+ }
+ .sub-4 ul li{
+     margin-left: 20px;
+     margin-top: 30px;
+ }
+ .sub-4 div {
+     display: inline-flex;
+     flex-direction: row;
+     width: 200px;
+     height: 450px;
+     margin-top: 15px;
+ }
+ .sub-4 a{
+     text-transform: none;
+     font-weight: 500;
+     font-size: 18px;
+     color: black;
+ }
+ .sub-4 a:hover{
+     color: brown;
+ }
+ 
+ 
+ .first-row ul li{
+     display: flex;
+ }
+ .first-row a{
+     text-transform: uppercase;
+     font-weight: bolder;
+ }
+ 
+ 
+ .second-row ul li{
+     display: flex;
+ }
+ 
+ 
+ 
+ .third-row ul li{
+     display: flex;
+  
+ }
+ 
+ 
+ .fourth-row ul li{
+     display: flex;
+ }
+ 
+ .fifth-row ul li{
+     display: flex;
+ }
+ .sixth-row ul li{
+     display: flex;
+ }
+ 
+ 
+ 
+ .navbar .women:hover .sub-4{
+     display: flex;  
+     width: 100%;
+     top: 40px;
+     left: 0px;
+     transition: 0.6s;
+ }
+ .sub-4:hover .sub-4{
+     display: flex;
+     top: 40px;
+     width: 100%;
+     left: 0px;
+     transition: 1s;
+ }
+ 
+
+.sub-4{
+   
+     display: flex;
+     position: fixed;
+     width: 0px;
+     top: 50px;
+     left: -900px;
+     padding-top: 20px;
+     background-color: white;
+     justify-content: space-between;
+     font-family: 'Reem Kufi Ink', sans-serif;
+     transition: 0.3s ease-out;
+ }
+ .sub-4 ul li{
+     margin-left: 20px;
+     margin-top: 30px;
+ }
+ .sub-4 div {
+     display: inline-flex;
+     flex-direction: row;
+     width: 200px;
+     height: 450px;
+     margin-top: 15px;
+ }
+ .sub-4 a{
+     text-transform: none;
+     font-weight: 500;
+     font-size: 18px;
+     color: black;
+ }
+ .sub-4 a:hover{
+     color: brown;
+ }
+ 
+ 
+ .first-row ul li{
+     display: flex;
+ }
+ .first-row a{
+     text-transform: uppercase;
+     font-weight: bolder;
+ }
+ 
+ 
+ .second-row ul li{
+     display: flex;
+ }
+ 
+ 
+ 
+ .third-row ul li{
+     display: flex;
+  
+ }
+ 
+ 
+ .fourth-row ul li{
+     display: flex;
+ }
+ 
+ .fifth-row ul li{
+     display: flex;
+ }
+ .sixth-row ul li{
+     display: flex;
+ }
+ 
+ 
+ 
+ .navbar .women:hover .sub-4{
+     display: flex;  
+     width: 100%;
+     top: 40px;
+     left: 0px;
+     transition: 0.6s;
+ }
+ .sub-4:hover .sub-4{
+     display: flex;
+     top: 40px;
+     width: 100%;
+     left: 0px;
+     transition: 1s;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .sub-5{
+   
+    display: flex;
+    position: fixed;
+    width: 0px;
+    top: 50px;
+    left: -900px;
+    padding-top: 20px;
+    background-color: white;
+    justify-content: space-between;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    transition: 0.3s ease-out;
+}
+.sub-5 ul li{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.sub-5 div {
+    display: inline-flex;
+    flex-direction: row;
+    width: 200px;
+    height: 450px;
+    margin-top: 15px;
+}
+@media (min-width: 879px) and (max-width: 1056px ) {
+    .sub-5 div{
+        width: 200px;
+    height: 550px;
+     }
+     .sub-4 div{
+        width: 200px;
+    height: 550px;
+     }
+   }
+
+
+.sub-5 a{
+    text-transform: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+}
+.sub-5 a:hover{
+    color: brown;
+}
+
+
+.first-row ul li{
+    display: flex;
+}
+.first-row a{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+
+.second-row ul li{
+    display: flex;
+}
+
+
+
+.third-row ul li{
+    display: flex;
+ 
+}
+
+
+.fourth-row ul li{
+    display: flex;
+}
+
+.fifth-row ul li{
+    display: flex;
+}
+.sixth-row ul li{
+    display: flex;
+}
+
+
+
+.navbar .kids:hover .sub-5{
+    display: flex;  
+    width: 100%;
+    top: 40px;
+    left: 0px;
+    transition: 0.6s;
+}
+.sub-5:hover .sub-5{
+    display: flex;
+    top: 40px;
+    width: 100%;
+    left: 0px;
+    transition: 1s;
+}
